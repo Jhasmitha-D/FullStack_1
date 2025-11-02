@@ -5,11 +5,12 @@
   "routes": [
     {
       "src": "/favicon.ico",
-      "dest": "/favicon.ico" // CORRECTED: This now points to dist/favicon.ico
+      "dest": "/favicon.ico" 
     },
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
+
 }
