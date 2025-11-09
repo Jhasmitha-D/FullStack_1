@@ -30640,7 +30640,7 @@ Please change the parent <Route path="${parentPath}"> to <Route path="${parentPa
 
   // src/main.tsx
   var import_jsx_runtime7 = __toESM(require_jsx_runtime());
-  var root = (0, import_client.createRoot)(document.getElementById("app"));
+  var root = (0, import_client.createRoot)(document.getElementById("root"));
   root.render(/* @__PURE__ */ (0, import_jsx_runtime7.jsx)(App, {}));
 })();
 /*! Bundled license information:
